@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Giuliopime/discordjs-bot-template#readme",
   "dependencies": {
+    "beautify.log": "^2.1.2",
     "bufferutil": "^4.0.3",
     "discord.js-light": "^3.5.4",
     "erlpack": "github:discord/erlpack",
