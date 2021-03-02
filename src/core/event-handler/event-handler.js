@@ -11,6 +11,7 @@ module.exports = {
       this.initEssentialEvents(client, args);
       this.initEvents(client);
    },
+
    initEssentialEvents(client = discordClient, args = { launchTimestamp: Date.now() }) {
       // Ready event, which gets fired only once when the bot reaches the ready state
       client.once('ready', async () => {
@@ -64,6 +65,7 @@ module.exports = {
 
       client.on('warn', (warn) => Logger.warn('The client received a warning', warn));
    },
+
    initEvents(client = discordClient) {
       // Gets all the events from the events folder
       const events = Object.entries(

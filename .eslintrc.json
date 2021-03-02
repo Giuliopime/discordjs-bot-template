@@ -15,6 +15,11 @@
         "no-console": "off",
         "no-plusplus": "off",
         "no-multiple-empty-lines": "off",
-        "nonblock-statement-body-position": "off"
+        "nonblock-statement-body-position": "off",
+        "global-require": "off",
+        "import/no-dynamic-require": "off",
+        "max-len": ["error", 120],
+        "no-trailing-spaces": "off",
+        "no-param-reassign": "off"
     }
 }
