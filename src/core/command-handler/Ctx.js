@@ -1,6 +1,6 @@
 const colors = require('../graphics/colors');
 
-module.exports = class ctx {
+module.exports = class Ctx {
    constructor(message, commandName, args) {
       this.message = message;
       this.channel = message.channel;

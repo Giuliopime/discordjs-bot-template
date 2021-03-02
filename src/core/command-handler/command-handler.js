@@ -102,7 +102,7 @@ module.exports = {
       }
    },
 
-   async isCommand(message, prefix) {
+   async getCommandData(message, prefix) {
       const msgContent = message.content;
       let command;
       let args;

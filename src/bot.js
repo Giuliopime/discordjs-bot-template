@@ -11,7 +11,8 @@ const client = new Discord.Client({
    messageCacheMaxSize: 30,
    messageEditHistoryMaxSize: 0,
    ws: {
-      // List of intents for the bot, can be found at https://discord.js.org/#/docs/main/stable/class/Intents?scrollTo=s-FLAGS
+      // List of intents for the bot, can be found at
+      // https://discord.js.org/#/docs/main/stable/class/Intents?scrollTo=s-FLAGS
       intents,
    },
    // Discord-js light caching options (modify for your needs)
