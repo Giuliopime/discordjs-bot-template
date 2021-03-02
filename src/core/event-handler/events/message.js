@@ -20,6 +20,7 @@ module.exports = async (client, message) => {
 
    const { guild, channel, member } = message;
 
+
    // COMMAND CHECK
 
    const commandCheck = await commandHandler.getCommandData(message, commandConfigs.prefix);
