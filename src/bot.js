@@ -20,7 +20,6 @@ const client = new Discord.Client({
    cacheChannels: true,
    cacheOverwrites: true,
    cacheRoles: true,
-   cacheMembers: true,
    cacheEmojis: false,
    cachePresences: false,
 });
@@ -28,7 +27,7 @@ const client = new Discord.Client({
 eventManager.init(client, { launchTimestamp });
 
 client.login(token)
-   .then(() => Logger.info('Bot logged into Discord successfully'))
+   .then(() => Logger.info('Logged into Discord successfully'))
    .catch((err) => {
       Logger.error('Error logging into Discord', err);
       process.exit();

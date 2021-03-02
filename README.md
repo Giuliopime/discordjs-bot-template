@@ -1,1 +1,1 @@
-# discord.js Bot Template
+# Discord.js Bot Template

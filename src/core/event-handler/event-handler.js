@@ -75,9 +75,6 @@ module.exports = {
          }),
       );
 
-      // Removes all the previously already attached events to prevent duplicates
-      events.forEach((e) => client.removeListener(e[0]));
-
       /*
        Binds the events gotten with the code above to the client:
          e[0] is the event name (the name of the file)

@@ -20,7 +20,6 @@ module.exports = async (client, message) => {
 
    const { guild, channel, member } = message;
 
-
    // COMMAND CHECK
 
    const commandCheck = await commandHandler.getCommandData(message, commandConfigs.prefix);
@@ -34,7 +33,6 @@ module.exports = async (client, message) => {
       await channel.send(embeds.error('The command is missing some arguments'));
       return;
    }
-
 
    // PERMISSIONS CHECK
    const missingTextPerms = permissionsHandler.checkTextPerms(channel);
@@ -72,7 +70,7 @@ module.exports = async (client, message) => {
    // EXECUTE THE COMMAND
    const ctx = new Ctx(message, command.name, args);
 
-   const error = await commandHandler.runCommand(command.name, ctx);
+   const error = await commandHandler.runCommand(ctx);
    if (error) {
       await channel.send(embeds.error(`Error while executing the command ${command.name}`));
    }
