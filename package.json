@@ -1,0 +1,40 @@
+{
+  "name": "discordjs-bot-template",
+  "version": "1.0.0",
+  "description": "💾 A complete template for simple discord.js bots, with command & event handlers.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Giuliopime/discordjs-bot-template.git"
+  },
+  "keywords": [
+    "discord-bot-template",
+    "discordjs-bot-template",
+    "command-handler",
+    "event-handler"
+  ],
+  "author": "Giulio Pimenoff Verdolin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Giuliopime/discordjs-bot-template/issues"
+  },
+  "homepage": "https://github.com/Giuliopime/discordjs-bot-template#readme",
+  "dependencies": {
+    "bufferutil": "^4.0.3",
+    "discord.js-light": "^3.5.4",
+    "erlpack": "github:discord/erlpack",
+    "require-all": "^3.0.0",
+    "utf-8-validate": "^5.0.4",
+    "zlib-sync": "^0.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
