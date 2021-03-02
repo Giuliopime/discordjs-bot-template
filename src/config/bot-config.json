@@ -1,10 +1,9 @@
 {
   "name": "Bot name",
   "status": "Bot status",
-  "statusType": "PLAYING",
-  "token": "NzAyMDU4NTk4MzA5ODIyNDk0.Xp6hBQ.PmWbtJ9CCOs63PdPRM8d6NJzzsE",
+  "statusType": "Bot status type, either 'PLAYING', 'LISTENING' or 'WATCHING'",
+  "token": "",
   "intents": [
-    "GUILDS",
     "GUILD_MESSAGES"
   ]
 }
