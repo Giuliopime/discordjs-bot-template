@@ -5,12 +5,12 @@ to reduce memory usage which can be a big deal when using [discord.js](https://d
 The bot has some handy built-in features which are described in the next section.
 
 ## 🎛 Features
-- (Dynamic event handler)[src/core/event-handler/README.md]
-- (Command handler)[src/core/command-handler]
-- (Commands cooldown system)[src/core/utils]
-- (A permissions checking system)[src/core/discord-utils]
-- (A tip system)[src/core/utils/tips]
-- (Logger)[src/core/utils]
+- [Dynamic event handler](src/core/event-handler)
+- [Command handler](src/core/command-handler)
+- [Commands cooldown system](src/core/utils)
+- [A permissions checking system](src/core/discord-utils)
+- [A tip system](src/core/utils/tips)
+- [Logger](src/core/utils)
 - and more...
 
 Everything is described in its respective folder inside the `/src` folder which contains all the bot's code.  
