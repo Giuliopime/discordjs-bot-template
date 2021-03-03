@@ -8,8 +8,8 @@ The bot has some handy built-in features which are described in the next section
 - [Dynamic event handler](src/core/event-handler)
 - [Command handler](src/core/command-handler)
 - [Commands cooldown system](src/core/utils)
-- [A permissions checking system](src/core/discord-utils)
-- [A tip system](src/core/utils/tips)
+- [Permissions checking system](src/core/discord-utils)
+- [Tip system](src/core/utils/tips)
 - [Logger](src/core/utils)
 - and more...
 
