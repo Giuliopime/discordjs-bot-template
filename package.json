@@ -18,7 +18,7 @@
     "event-handler"
   ],
   "author": "Giulio Pimenoff Verdolin",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Giuliopime/discordjs-bot-template/issues"
   },
