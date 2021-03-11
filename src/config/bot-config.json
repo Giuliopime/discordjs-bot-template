@@ -4,6 +4,7 @@
   "statusType": "Bot status type, either 'PLAYING', 'LISTENING' or 'WATCHING'",
   "token": "",
   "intents": [
+    "GUILDS",
     "GUILD_MESSAGES"
   ]
 }
