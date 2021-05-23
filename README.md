@@ -21,4 +21,4 @@ I don't provide any coding assistance, here are some useful Discord servers for 
 - [Discord.js](https://discord.gg/bRCvFy9)
 - [Discord.js-light](https://discord.gg/BpeedKh)
 - [Discord API](https://discord.gg/discord-api)
-- [Programming humor](https://discord.gg/yFJDGVT6eq)
+- [Programmer humor](https://discord.gg/yFJDGVT6eq)
