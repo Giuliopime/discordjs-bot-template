@@ -4,6 +4,8 @@ to reduce memory usage which can be a big deal when using [discord.js](https://d
 
 The bot has some handy built-in features which are described in the next section.
 
+*Note: this does not support slash commands or buttons*
+
 ## 🎛 Features
 - [Dynamic event handler](src/core/event-handler)
 - [Command handler](src/core/command-handler)
