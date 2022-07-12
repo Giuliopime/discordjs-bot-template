@@ -1,12 +1,13 @@
 # 💾 Discord.js Bot Template
-This is a simple Discord bot template which uses [discord.js-light](https://github.com/timotejroiko/discord.js-light#readme) 
+
+- Simple Discord bot template that uses [discord.js-light](https://github.com/timotejroiko/discord.js-light#readme) 
 to reduce memory usage which can be a big deal when using [discord.js](https://discord.js.org/#/).  
 
-The bot has some handy built-in features which are described in the next section.
+<b> The bot has some handy built-in features which are described in the next section. </b>
 
-*Note: this does not support slash commands or buttons*
+*Note: Buttons & Slash Commands are <b> NOT </b> Supported within Jet*
 
-## 🎛 Features
+## 🎛 Features within Jet
 - [Dynamic event handler](src/core/event-handler)
 - [Command handler](src/core/command-handler)
 - [Commands cooldown system](src/core/utils)
@@ -17,10 +18,17 @@ The bot has some handy built-in features which are described in the next section
 
 Everything is described in its respective folder inside the `/src` folder which contains all the bot's code.  
 
-## ❗ Disclaimer
-### 🛠 I haven't yet tested anything!
-I don't provide any coding assistance, here are some useful Discord servers for that:
-- [Discord.js](https://discord.gg/bRCvFy9)
+## ❗ Disclaimers about Jet
+Assistance is <b> NOT </b> provided for coding within Jet.
+
+*🛠 Somethings haven't yet been tested, bugs may remain!*
+
+## Links for some Coding Assistance
+
+- [Discord JS (Docs)](https://discord.js.org/#/docs/discord.js/main/general/welcome)
+  - [Discord API (Discord Server)](https://discord.gg/discord-api) 
+  - [Discord JS (Discord Server)](https://discord.com/invite/djs)
+
 - [Discord.js-light](https://discord.gg/BpeedKh)
-- [Discord API](https://discord.gg/discord-api)
+
 - [Programmer humor](https://discord.gg/yFJDGVT6eq)
